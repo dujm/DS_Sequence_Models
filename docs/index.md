@@ -41,14 +41,13 @@ Problems:
   * Or intialize a<sup>0</sup> randomly
 * Reads the 1st word in a sentence, predict whether the word is a part of the name y1 for X1
 * Reads the 2nd word in a sentence, predict y2 for X2
-* Passes the activation information from time step 1 to time step 2  
+* Passes the activation information from time step 1 to time step 2    
 
+<img src="../references/image/RNN.png"  alt="drawing" width="600" />  
 
-<img src="../references/image/LSTM.png" width="600" />
+<img src="rnn2.png" width="600" />  
 
-<img src="../references/image/LSTM.png" width="600" />
-
-<img src="../references/image/LSTM.png" width="600" />
+<img src="rnn_step_forward.png" alt="drawing" width="600" />
 
 <br>
 
@@ -169,9 +168,11 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 * Forget gate: LSTM should remove that piece of information (e.g. the singular subject) in the corresponding component. If one of the values is 1, then it will keep the information.
 * Update gate: Once we forget that the subject being discussed is singular, we need to find a way to update it to reflect that the new subject is now plural.
 * Updating the cell: To update the new subject we need to create a new vector of numbers that we can add to our previous cell state.
-* Output gate: To decide which outputs we will use
+* Output gate: To decide which outputs we will use  
 
-<img src="../references/image/LSTM.png" width="600" />
+<img src="LSTM.png" alt="drawing" width="600" />
+
+<img src="../references/image/LSTM.png" alt="drawing" width="600" />
 <br>
 
 ### 11. Read more?
