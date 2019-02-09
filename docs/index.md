@@ -1,8 +1,11 @@
-### Sequence Models
+####  [Home](https://dujm.github.io/pages/datascience.html)
 
-## I: Recurrent Neural Networks
-<br>
-### 1.What are some examples of sequence data?
+
+
+### Sequence Models  
+
+## I: Recurrent Neural Networks  
+### 1.What are some examples of sequence data?  
 * DNA/RNA/Protein Sequence
 * [Smart home](https://www.youtube.com/watch?v=d4Sn6ny_5LI)
 * Stock change
@@ -40,9 +43,12 @@ Problems:
 * Reads the 2nd word in a sentence, predict y2 for X2
 * Passes the activation information from time step 1 to time step 2  
 
-![RNN](../image/RNN.png "RNN")
-![RNN](../image/rnn2.png "rnn2")
-![RNN](../image/rnn_step_forward.png "rnn_step_forward")
+![RNN](../assets/RNN.png "RNN")
+
+![RNN](../assets/rnn2.png "rnn2")
+
+![RNN](../assets/rnn_step_forward.png "rnn_step_forward")
+
 
 <br>
 
@@ -165,7 +171,7 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 * Updating the cell: To update the new subject we need to create a new vector of numbers that we can add to our previous cell state.
 * Output gate: To decide which outputs we will use
 
-![RNN](../image/LSTM.png "lstm")
+![RNN](../assets/LSTM.png "lstm")
 
 <br>
 
@@ -181,8 +187,6 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 
 ---
 [//]: # (How to print y hat in markdown?)
-
-
 
 
  [1]: http://karpathy.github.io/2015/05/21/rnn-effectiveness/ "The Unreasonable Effectiveness of Recurrent Neural Networks"
