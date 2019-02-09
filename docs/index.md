@@ -1,10 +1,8 @@
-
-
 ### Sequence Models
 
-### I: Recurrent Neural Networks
+## I: Recurrent Neural Networks
 <br>
-#### 1.What are some examples of sequence data?
+### 1.What are some examples of sequence data?
 * DNA/RNA/Protein Sequence
 * [Smart home](https://www.youtube.com/watch?v=d4Sn6ny_5LI)
 * Stock change
@@ -24,7 +22,7 @@
 
   <br>
 
-#### 2. Why don't we use a standard network for sequence data analysis?
+### 2. Why don't we use a standard network for sequence data analysis?
 Problems:  
 * Input and outputs can be different lenths in different sentences
 * You may pad or zero-pad each inputs up to that maximum length
@@ -33,7 +31,7 @@ Problems:
 
 <br>
 
-#### 3. How does a (uni-directional) recurrent neural network different from a standard network?
+### 3. How does a (uni-directional) recurrent neural network different from a standard network?
 
 * To kick off, add a made-up activation at time 0  
   * Usually the vectors of zeros as the fake times zero activation)
@@ -41,13 +39,14 @@ Problems:
 * Reads the 1st word in a sentence, predict whether the word is a part of the name y1 for X1
 * Reads the 2nd word in a sentence, predict y2 for X2
 * Passes the activation information from time step 1 to time step 2  
-![RNN](../references/image/RNN.png "RNN")
-![RNN](../references/image/rnn2.png "rnn2")
-![RNN](../references/image/rnn_step_forward.png "rnn_step_forward")
+
+![RNN](../image/RNN.png "RNN")
+![RNN](../image/rnn2.png "rnn2")
+![RNN](../image/rnn_step_forward.png "rnn_step_forward")
 
 <br>
 
-#### 4. Vanishing gradients with RNNs
+### 4. Vanishing gradients with RNNs
 
   * Exploding gradients:
       * Parameters get large
@@ -59,7 +58,7 @@ Problems:
 
 <br>
 
-#### 5. What are forward propagation and backward propagation?
+### 5. What are forward propagation and backward propagation?
 
 * Forward Propagation
 * Backward propagation through time
@@ -67,11 +66,11 @@ Problems:
 
 <br>
 
-#### 6. Bidrectional Neural Networks (BRNNs)
+### 6. Bidrectional Neural Networks (BRNNs)
 
-#### Activation Functions:
+### Activation Functions:
 
-##### Hidden Layers:
+#### Hidden Layers:
 
 * Relu
 
@@ -87,25 +86,25 @@ Problems:
   * Tanh (Hyperbolic Tangent Function)
     * Gradient vanishing problems
 
-##### Output layers
+##### Output layers  
 
 * Softmax: For classification
 
-* Linear function: For regression
-##### Note:
+* Linear function: For regression  
+#### Note:
 
 * For a real type speech recognition applications: complex modules.
 * NLP processing applications: use standard BRNN when you can get the entire sentence all the same time
 
 <br>
 
-#### 7.Deep BRNNs
+### 7.Deep BRNNs
 * You don't see a lot of deep-connected layers because of the large temporal dimensions
 * 3 layers is already deep  
 
 <br>
 
-#### 8. Language modelling and sequence generation
+### 8. Language modelling and sequence generation
 
 * A training set comprising a large corpus of text
 * Tokenization
@@ -121,11 +120,11 @@ Problems:
 
   <br>
 
-#### 9. Gated Recurrent Unit (GRU)
+### 9. Gated Recurrent Unit (GRU)
 * What is GRU? [GRU][2] is a modification of the RNN hidden layer
 
-* Why GRU? GRU is much better [capturing long range connections][3] and helps a lot with the vanishing gradient problems.
-#### What is a common GRU composed of?
+* Why GRU? GRU is much better [capturing long range connections][3] and helps a lot with the vanishing gradient problems.  
+### What is a common GRU composed of?
 * Memory Cell Value (c): a new variable in GRU
 
   * Provide a bit of memory to remember
@@ -150,33 +149,34 @@ Problems:
 
 <br>
 
-#### 10. Long Short-Term Memory (LSTM) network
-##### What is a LSTM unit and network?
+### 10. Long Short-Term Memory (LSTM) network
+#### What is a LSTM unit and network?
 Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM units is often called an [LSTM network](https://en.wikipedia.org/wiki/Long_short-term_memory).
 
-##### What is a common LSTM composed of?
+#### What is a common LSTM composed of?
 * a cell
 * an input gate
 * an output gate
-* a forget gate.
-##### How does LSTM work?
+* a forget gate.  
+
+#### How does LSTM work?
 * Forget gate: LSTM should remove that piece of information (e.g. the singular subject) in the corresponding component. If one of the values is 1, then it will keep the information.
 * Update gate: Once we forget that the subject being discussed is singular, we need to find a way to update it to reflect that the new subject is now plural.
 * Updating the cell: To update the new subject we need to create a new vector of numbers that we can add to our previous cell state.
 * Output gate: To decide which outputs we will use
 
-![RNN](../references/image/LSTM.png "lstm")
+![RNN](../image/LSTM.png "lstm")
 
 <br>
 
-#### 11. Read more?
-##### [Image source: "Sequence Models" | Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
+### 11. Read more?
+#### [Image source: "Sequence Models" | Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
 
-##### [Understanding LSTM Networks | GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+#### [Understanding LSTM Networks | GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
 
-##### [The Illustrated BERT, ELMo](http://jalammar.github.io/illustrated-bert/)
+#### [The Illustrated BERT, ELMo](http://jalammar.github.io/illustrated-bert/)
 
-##### [BERT Explained: State of the art language model for NLP | Medium](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
+#### [BERT Explained: State of the art language model for NLP | Medium](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
 
 
 ---
