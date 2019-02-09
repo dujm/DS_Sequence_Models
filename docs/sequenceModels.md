@@ -185,7 +185,7 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 <br><br>
 
 
-#### 11. Want to read more?
+#### 11. Read more?
 
 ##### [Understanding LSTM Networks | GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
 
