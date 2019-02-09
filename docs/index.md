@@ -43,7 +43,7 @@ Problems:
 * Reads the 2nd word in a sentence, predict y2 for X2
 * Passes the activation information from time step 1 to time step 2    
 
-<img src="../references/image/RNN.png"  alt="drawing" width="600" />  
+<img src="RNN.png" alt="drawing" width="600" />
 
 <img src="rnn2.png" width="600" />  
 
@@ -172,8 +172,13 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 
 <img src="LSTM.png" alt="drawing" width="600" />
 
-<img src="../references/image/LSTM.png" alt="drawing" width="600" />
+
+<img src="assets/LSTM.png" alt="drawing" width="600" />
 <br>
+
+<img src="../assets/LSTM.png" alt="drawing" width="600" />
+<br>
+
 
 ### 11. Read more?
 #### [Image source: "Sequence Models" | Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
