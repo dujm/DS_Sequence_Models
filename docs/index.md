@@ -21,6 +21,7 @@
     * Commercial: 30k    
     * This lecture example: 10k  
     * One-Hot encoders
+
   <br>
 
 #### 2. Why don't we use a standard network for sequence data analysis?
