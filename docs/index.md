@@ -119,7 +119,7 @@ Problems:
 
 #### 8. Language modelling and sequence generation
 
-* A trining set comprising a large corpus of text
+* A training set comprising a large corpus of text
 * Tokenization
   * End of Sentence (EOS)
   * Unkown words (UNK)
@@ -136,9 +136,9 @@ Problems:
 
 
 #### 9. Gated Recurrent Unit (GRU)
-* What is GRU? [GRU] [2] is a modification of the RNN hidden layer
+* What is GRU? [GRU][2] is a modification of the RNN hidden layer
 
-* Why GRU? GRU is much better [capturing long range connections] [3] and helps a lot with the vanishing gradient problems.
+* Why GRU? GRU is much better [capturing long range connections][3] and helps a lot with the vanishing gradient problems.
 #### What is a common GRU composed of?
 * Memory Cell Value (c): a new variable in GRU
 
@@ -158,7 +158,7 @@ Problems:
 
   * [0 -1] For intuition, think of gamma as either 0 or 1
 
-* The relavence gate
+* The relevance gate
 
   * Notion: Γ<sub>r</sub>
 
