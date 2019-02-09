@@ -1,17 +1,16 @@
 ####  [Home](https://dujm.github.io/pages/datascience.html)
 
+## Sequence Models
 
+### I: Recurrent Neural Networks
 
-### Sequence Models  
-
-## I: Recurrent Neural Networks  
 ### 1.What are some examples of sequence data?  
 * DNA/RNA/Protein Sequence
 * [Smart home](https://www.youtube.com/watch?v=d4Sn6ny_5LI)
 * Stock change
 * Supply chain
 * Music generation
-* Speeach recognition
+* Speech recognition
 * Sentiment classification
 * Video activity recognition
 * Name entity recognition (one example here)
@@ -27,7 +26,7 @@
 
 ### 2. Why don't we use a standard network for sequence data analysis?
 Problems:  
-* Input and outputs can be different lenths in different sentences
+* Input and outputs can be different lengths in different sentences
 * You may pad or zero-pad each inputs up to that maximum length
 * Don't share features learned across different positions of text
 * Huge matrix: each vector x<sup>T</sup> * max No. of words
@@ -38,7 +37,7 @@ Problems:
 
 * To kick off, add a made-up activation at time 0  
   * Usually the vectors of zeros as the fake times zero activation)
-  * Or intialize a<sup>0</sup> randomly
+  * Or initialize a<sup>0</sup> randomly
 * Reads the 1st word in a sentence, predict whether the word is a part of the name y1 for X1
 * Reads the 2nd word in a sentence, predict y2 for X2
 * Passes the activation information from time step 1 to time step 2    
@@ -51,7 +50,7 @@ Problems:
 
 <br>
 
-### 4. Vanishing gradients with RNNs
+### 4. What are the disadvantages of a RNN?
 
   * Exploding gradients:
       * Parameters get large
@@ -78,26 +77,23 @@ Problems:
 #### Hidden Layers:
 
 * Relu
-
   * [If a lot of neurons die](https://www.youtube.com/watch?v=-7scQpJT7uo )
     * Leaky Relu
     * MaxOut
 
 * Don't use:
-
   * Sigmoid
     * Gradient vanishing problems
     * Loss of control because it's not 0-centered (all +)
   * Tanh (Hyperbolic Tangent Function)
     * Gradient vanishing problems
 
-##### Output layers  
-
+#### Output layers  
 * Softmax: For classification
 
 * Linear function: For regression  
-#### Note:
 
+#### Note:
 * For a real type speech recognition applications: complex modules.
 * NLP processing applications: use standard BRNN when you can get the entire sentence all the same time
 
@@ -117,7 +113,7 @@ Problems:
   * Unkown words (UNK)
 * Vocabulary-level language model
 * Character-level language model
-  * punctuations and space are also vectorss
+  * punctuations and space are also vectors
   * Don't need to worry about UNK, assign non-zero vectors
   * Not good at capturing long-range word dependencies
   * How about Chinese and German?
@@ -125,11 +121,11 @@ Problems:
 
   <br>
 
-### 9. Gated Recurrent Unit (GRU)
+### 9. Gated Recurrent Unit (GRU)  
 * What is GRU? [GRU][2] is a modification of the RNN hidden layer
 
-* Why GRU? GRU is much better [capturing long range connections][3] and helps a lot with the vanishing gradient problems.  
-### What is a common GRU composed of?
+* Why GRU? GRU is much better   [capturing long range connections][3] and helps a lot with the vanishing gradient problems.  
+### What is a common GRU composed of?  
 * Memory Cell Value (c): a new variable in GRU
 
   * Provide a bit of memory to remember
@@ -162,7 +158,7 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 * a cell
 * an input gate
 * an output gate
-* a forget gate.  
+* a forget gate
 
 #### How does LSTM work?
 * Forget gate: LSTM should remove that piece of information (e.g. the singular subject) in the corresponding component. If one of the values is 1, then it will keep the information.
