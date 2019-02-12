@@ -1,4 +1,4 @@
-####  [Home](https://dujm.github.io/pages/datascience.html)
+####  [Home](https://dujm.github.io/)
 
 ## Sequence Models
 
@@ -173,13 +173,13 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 
 
 ### 11. Read more?
-#### [Image source: "Sequence Models" | Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
+  * [Text and Image source: "Sequence Models" | Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
 
-#### [Understanding LSTM Networks | GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+  * [Understanding LSTM Networks | GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
 
-#### [The Illustrated BERT, ELMo](http://jalammar.github.io/illustrated-bert/)
+  * [The Illustrated BERT, ELMo](http://jalammar.github.io/illustrated-bert/)
 
-#### [BERT Explained: State of the art language model for NLP | Medium](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
+  * [BERT Explained: State of the art language model for NLP | Medium](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
 
 
 ---
