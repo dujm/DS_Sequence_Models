@@ -24,7 +24,7 @@ Word embedding is one of the most popular word representation It is capable of c
 | Properties of word embeddings  |  yes  |  
 
 ### 5. How does word embeddings algorithms work?
-Take a look at [Coursera notebook]{https://www.coursera.org/learn/nlp-sequence-models/notebook/5NrJ6/operations-on-word-vectors-debiasing}
+Take a look at [Coursera notebook]{https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w2_Operations%2Bon%2Bword%2Bvectors%2B-%2Bv2_DJ.ipynb}
 
 Or my otebook{https://github.com/dujm/DS_Sequence_Models/tree/master/notebooks/Finished}
 (Pictures need to be implemented)
