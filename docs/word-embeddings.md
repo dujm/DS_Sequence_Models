@@ -1,3 +1,8 @@
+---
+layout: page
+title: Word Embeddings
+
+---
 
 ####  [Home](https://dujm.github.io/)
 
@@ -8,12 +13,8 @@ Word embedding is one of the most popular word representation It is capable of c
   * One-Hot encodings
   * Featurized representaion: word embeddings
 
-### 2. What is word embeddings?  
 
-### 3. Why do we use word embeddings?
-
-
-### 4. Summary
+### 2. Summary of word embeddings
 |   | Word Embeddings   |  
 |---|---|
 | Transfer Learning |  yes    |
@@ -23,13 +24,11 @@ Word embedding is one of the most popular word representation It is capable of c
 | Visulization   | t-SNE|    
 | Properties of word embeddings  |  yes  |  
 
-### 5. How does word embeddings algorithms work?
-Take a look at [Coursera notebook]{https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w2_Operations%2Bon%2Bword%2Bvectors%2B-%2Bv2_DJ.ipynb}
+### 3. How does word embedding algorithms work?
+Take a look at [Coursera notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w2_Operations%2Bon%2Bword%2Bvectors%2B-%2Bv2_DJ.ipynb)
 
-Or my otebook{https://github.com/dujm/DS_Sequence_Models/tree/master/notebooks/Finished}
+Or [my notebook](https://github.com/dujm/DS_Sequence_Models/tree/master/notebooks/Finished)
 (Pictures need to be implemented)
-
-
 
 
 --

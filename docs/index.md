@@ -125,6 +125,7 @@ Problems:
 * What is GRU? [GRU][2] is a modification of the RNN hidden layer
 
 * Why GRU? GRU is much better   [capturing long range connections][3] and helps a lot with the vanishing gradient problems.  
+
 ### What is a common GRU composed of?  
 * Memory Cell Value (c): a new variable in GRU
 
@@ -171,11 +172,11 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 <br>
 
 
-
 ### 11. Read more?
-  * [Text and Image source: "Sequence Models" | Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
 
-  * [Understanding LSTM Networks | GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
+  * [Text and Image source: "Sequence Models" Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
+
+  * [Understanding LSTM Networks  GitHub](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)  
 
   * [The Illustrated BERT, ELMo](http://jalammar.github.io/illustrated-bert/)
 
