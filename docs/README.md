@@ -5,7 +5,7 @@ A short description of the project.
 
 Project Organization
 
-[Sequence Model, Coursera](https://www.coursera.org/learn/nlp-sequence-models/home/welcome)
+#### [Ref: Sequence Model, Coursera](https://www.coursera.org/learn/nlp-sequence-models/home/welcome)
 ------------
 
     ├── LICENSE
@@ -17,7 +17,8 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── docs               <- Project pages
+    │   ├── assets         <- Images 
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │

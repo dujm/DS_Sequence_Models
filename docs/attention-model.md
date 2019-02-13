@@ -3,7 +3,8 @@ title: Attention Model
 ---
 
 
-####  [Home](https://dujm.github.io/)
+####  [Sequence Models](https://dujm.github.io/DS_Sequence_Models/sequence-models)&nbsp;  | &nbsp;    [Word Embeddings](https://dujm.github.io/DS_Sequence_Models/word-embeddings) &nbsp;  | &nbsp;  [Attention Model](https://dujm.github.io/DS_Sequence_Models/attention-model) &nbsp;  | &nbsp;  [More about Data Science](https://dujm.github.io/pages/datascience.html)
+
 
 ### 1. What is attention?
   * [Attention](https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129) is a vector, often the outputs of dense layer using softmax function.
@@ -29,6 +30,6 @@ title: Attention Model
 --
 
 ### Read more?
-  * [A Brief Overview of Attention Mechanism | Medium](https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129)
+  * [A Brief Overview of Attention Mechanism, Medium](https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129)
 
   * [How Does Attention Work in Encoder-Decoder Recurrent Neural Networks](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/)

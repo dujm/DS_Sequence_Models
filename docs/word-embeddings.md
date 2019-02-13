@@ -3,14 +3,14 @@ title: Word Embeddings
 ---
 
 
+####  [Sequence Models](https://dujm.github.io/DS_Sequence_Models/sequence-models)&nbsp;  | &nbsp;    [Word Embeddings](https://dujm.github.io/DS_Sequence_Models/word-embeddings) &nbsp;  | &nbsp;  [Attention Model](https://dujm.github.io/DS_Sequence_Models/attention-model) &nbsp;  | &nbsp;  [More about Data Science](https://dujm.github.io/pages/datascience.html)
 
-####  [Home](https://dujm.github.io/)
-
-Word embedding is one of the most popular word representation It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.
 
 ### 1. What are word representations?
   * One-Hot encodings
-  * Featurized representaion: word embeddings
+  * Featurized representaion: word embeddings  
+    * Word embedding is one of the most popular word representation.
+    * It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.
 
 
 ### 2. Summary of word embeddings
