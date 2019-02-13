@@ -5,6 +5,7 @@ title: Word Embeddings
 
 ####  [Sequence Models](https://dujm.github.io/DS_Sequence_Models/)&nbsp;  | &nbsp;    [Attention Model](https://dujm.github.io/DS_Sequence_Models/attention-model) &nbsp;  | &nbsp;  [Word Embeddings](https://dujm.github.io/DS_Sequence_Models/word-embeddings) &nbsp;  | &nbsp;  [More about Data Science](https://dujm.github.io/pages/datascience.html)
 
+
 ### 1. What are word representations?
   * One-Hot encodings
   * Featurized representaion: word embeddings  
@@ -13,6 +14,7 @@ title: Word Embeddings
 
 
 ### 2. Summary of word embeddings
+
 |   | Word Embeddings   |  
 |---|---|
 | Transfer Learning |  yes    |
