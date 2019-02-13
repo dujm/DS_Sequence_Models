@@ -1,3 +1,8 @@
+---
+title: Sequence Models
+---
+
+
 ####  [Home](https://dujm.github.io/)
 
 ## Sequence Models

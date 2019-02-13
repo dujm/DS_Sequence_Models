@@ -1,12 +1,11 @@
 ---
-layout: page
 title: Word Embeddings
-
 ---
+
+
 
 ####  [Home](https://dujm.github.io/)
 
-## Word embeddings
 Word embedding is one of the most popular word representation It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.
 
 ### 1. What are word representations?

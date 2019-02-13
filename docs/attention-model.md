@@ -1,7 +1,9 @@
+---
+title: Attention Model
+---
+
 
 ####  [Home](https://dujm.github.io/)
-
-## Attention Model
 
 ### 1. What is attention?
   * [Attention](https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129) is a vector, often the outputs of dense layer using softmax function.
