@@ -3,7 +3,7 @@ title: Sequence Models
 ---
 
 
-####  [Sequence Models](https://dujm.github.io/DS_Sequence_Models/sequence-models)&nbsp;  | &nbsp;    [Word Embeddings](https://dujm.github.io/DS_Sequence_Models/word-embeddings) &nbsp;  | &nbsp;  [Attention Model](https://dujm.github.io/DS_Sequence_Models/attention-model) &nbsp;  | &nbsp;  [More about Data Science](https://dujm.github.io/pages/datascience.html)
+####  [Sequence Models](https://dujm.github.io/DS_Sequence_Models/)&nbsp;  | &nbsp;    [Attention Model](https://dujm.github.io/DS_Sequence_Models/attention-model) &nbsp;  | &nbsp;  [Word Embeddings](https://dujm.github.io/DS_Sequence_Models/word-embeddings) &nbsp;  | &nbsp;  [More about Data Science](https://dujm.github.io/pages/datascience.html)
 
 ## Sequence Models
 
