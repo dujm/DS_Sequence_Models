@@ -4,6 +4,8 @@ Data Science Sequence Models
 A short description of the project.
 
 Project Organization
+
+[Sequence Model, Coursera](https://www.coursera.org/learn/nlp-sequence-models/home/welcome)
 ------------
 
     ├── LICENSE
