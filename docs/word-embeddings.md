@@ -15,14 +15,13 @@ title: Word Embeddings
 
 ### 2. Summary of word embeddings
 
-|   | Word Embeddings   |  
+|   | Word Embeddings |  
 |---|---|
-| Transfer Learning |  yes    |
-| Training Set |  small  |  
-|Entity recognition, text summarization, co-reference resolution, parsing   |Good  |   
-| Language modeling and machine translation    | Bad |   
-| Visulization   | t-SNE|    |
-
+| Transfer Learning |  yes |
+| Training Set |  small  |
+|Entity recognition, text summarization, co-reference resolution, parsing   |Good  |
+| Language modeling and machine translation    | Bad |
+| Visulization   | t-SNE|  
 
 ### 3. How does word embedding algorithms work?
   * How to use word embeddings to solve a **Word Analogy** problem?
