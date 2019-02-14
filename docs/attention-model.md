@@ -26,18 +26,19 @@ title: Attention Model
   * It can even allow translator to zoom in or out (focus on local or global features).
 
   * By utilizing attention model, it is possible for decoder to capture somewhat global information rather than solely to infer based on one hidden state.
+  <br>
 
-4. Try the Human-Machine Translation exercise on Coursera  
+### 4. How to solve a Human-Machine Translation problem using a attention-based bidirectional LSTM?  
+  * Try the Human-Machine Translation exercise on Coursera  
 (Translating human readable dates into machine readable dates)  
 [Coursera notebook](https://www.coursera.org/learn/nlp-sequence-models/notebook/npjGi/neural-machine-translation-with-attention)  
 
 
-* Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w3_Neural_machine_translation_with_attentionv4_DJ.ipynb)  
+  * Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w3_Neural_machine_translation_with_attentionv4_DJ.ipynb)  
 (Images need to be added)
 
-
---
-
+<br>
+---
 ### Read more?
   * [A Brief Overview of Attention Mechanism, Medium](https://medium.com/syncedreview/a-brief-overview-of-attention-mechanism-13c578ba9129)
 

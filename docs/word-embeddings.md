@@ -45,8 +45,8 @@ title: Word Embeddings
 
 
 
---
-
+<br>
+---
 ### Reference
   * [Natural Language Processing & Word Embeddings, Coursera](https://www.coursera.org/learn/nlp-sequence-models/home/week/2)  
 
