@@ -33,7 +33,7 @@ title: Word Embeddings
   * Try the exercise on Coursera [Coursera notebook](https://www.coursera.org/learn/nlp-sequence-models/notebook/5NrJ6/operations-on-word-vectors-debiasing)
 
   * Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w2_Operations%2Bon%2Bword%2Bvectors%2B-%2Bv2_DJ.ipynb)  
-(Pictures need to be added)
+(Images need to be added)
 
 
 ### 4. How to create an embedding layer and build a Kears LSTM model for sentiment classification?
@@ -41,7 +41,7 @@ title: Word Embeddings
 (Input a sentence and find the most appropriate emoji)  
 
 * Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/tree/master/notebooks/Finished/w2_Emojify_v2_DJ.ipynb)  
-(Pictures need to be added)
+(Images need to be added)
 
 
 

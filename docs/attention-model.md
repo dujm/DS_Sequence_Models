@@ -27,6 +27,15 @@ title: Attention Model
 
   * By utilizing attention model, it is possible for decoder to capture somewhat global information rather than solely to infer based on one hidden state.
 
+4. Try the Human-Machine Translation exercise on Coursera  
+(Translating human readable dates into machine readable dates)  
+[Coursera notebook](https://www.coursera.org/learn/nlp-sequence-models/notebook/npjGi/neural-machine-translation-with-attention)  
+
+
+* Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w3_Neural_machine_translation_with_attentionv4_DJ.ipynb)  
+(Images need to be added)
+
+
 --
 
 ### Read more?
