@@ -176,8 +176,9 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 <img src="assets/LSTM.png" alt="drawing" width="600" />
 <br>
 
-
-### 11. Read more?
+<br>
+---
+### Read more?
 
   * [Text and Image source: "Sequence Models", Coursera](https://www.coursera.org/learn/nlp-sequence-models/)
 
@@ -187,8 +188,7 @@ Long short-term memory (LSTM) units are units of a RNN. An RNN composed of LSTM 
 
   * [BERT Explained: State of the art language model for NLP, Medium](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
 
-  <br>
-  ---
+
 [//]: # (How to print y hat in markdown?)
 
 
