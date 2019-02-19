@@ -117,12 +117,14 @@ Problems:
   * End of Sentence (EOS)
   * Unkown words (UNK)
 * Vocabulary-level language model
-* Character-level language model
-  * punctuations and space are also vectors
+* **Character-level language model**
+  * Punctuations and space are also vectors
   * Don't need to worry about UNK, assign non-zero vectors
   * Not good at capturing long-range word dependencies
-  * How about Chinese and German?
-* Sequence generation
+  * An example of character level language model
+  [Dinosaurus land notebook](https://github.com/dujm/DS_Sequence_Models/tree/master/notebooks/Finished/w1_Dinosaurus_Island_Character_level_language_model_final_v3_DJ.ipynb)  
+
+* **Sequence generation**
 
   <br>
 
