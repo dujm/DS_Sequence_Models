@@ -34,7 +34,7 @@ title: Attention Model
 [Coursera notebook](https://www.coursera.org/learn/nlp-sequence-models/notebook/npjGi/neural-machine-translation-with-attention)  
 
 
-  * Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Finished/w3_Neural_machine_translation_with_attentionv4_DJ.ipynb)  
+  * Take a look at [my notebook](https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%203/Machine%20Translation/w3_Neural_machine_translation_with_attentionv4_DJ.ipynb)  
 (Images need to be added)
 
 <br>

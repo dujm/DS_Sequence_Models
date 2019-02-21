@@ -122,7 +122,7 @@ Problems:
   * Don't need to worry about UNK, assign non-zero vectors
   * Not good at capturing long-range word dependencies
   * An example of character level language model
-  [Dinosaurus land notebook](https://github.com/dujm/DS_Sequence_Models/tree/master/notebooks/Finished/w1_Dinosaurus_Island_Character_level_language_model_final_v3_DJ.ipynb)  
+  [Dinosaurus land notebook](https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%201/Dinosaur%20Island%20--%20Character-level%20language%20model/w1_Dinosaurus_Island_Character_level_language_model_final_v3_DJ.ipynb)  
 
 * **Sequence generation**
 
