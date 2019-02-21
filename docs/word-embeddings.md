@@ -32,7 +32,7 @@ title: Word Embeddings
 
   * Try the exercise on Coursera [Coursera notebook](https://www.coursera.org/learn/nlp-sequence-models/notebook/5NrJ6/operations-on-word-vectors-debiasing)
 
-  * Take a look at [my notebook](https://github.com/dujm/DS_Sequence_Models/blob/master/notebooks/Week%202/Word_Vector_Representation/w2_Operations_onword_vectorsv2_DJ.ipynb)  
+  * Take a look at [my notebook](https://nbviewer.jupyter.org/github/dujm/DS_Sequence_Models/blob/master/notebooks/Week%202/Word_Vector_Representation/w2_Operations_onword_vectorsv2_DJ.ipynb)  
 
 
 

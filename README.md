@@ -15,7 +15,6 @@ Organization of my files
     ├── README.md
     ├── docs
     │   ├── Makefile
-    │   ├── README.md
     │   ├── _config.yml
     │   ├── assets
     │   ├── attention-model.md
@@ -25,28 +24,23 @@ Organization of my files
     │   └── word-embeddings.md
     ├── notebooks
     │   ├── Week 1
-    │   │   ├── Building\ a\ Recurrent\ Neural\ Network\ -\ Step\ by\ Step
-    │   │   ├── Dinosaur\ Island\ --\ Character-level\ language\ model
-    │   │   └── Jazz\ improvisation\ with\ LSTM
+    │   │   ├── Building a Recurrent Neural Network - Step by Step
+    │   │   ├── Dinosaur Island -- Character-level language model
+    │   │   └── Jazz improvisation with LSTM
     │   ├── Week 2
     │   │   ├── Emojify
     │   │   └── Word_Vector_Representation
     │   ├── Week 3
-    │   │   ├── Machine\ Translation
-    │   │   └── Trigger\ word\ detection
+    │   │   ├── Machine Translation
+    │   │   └── Trigger word detection
     │   └── readonly
-    │       ├── Triggerword\ Detection
-    │       └── glove.6B.50d.txt -> /home/jovyan/work-ro/readonly/glove.6B.50d.txt
+    │       ├── TriggerwordDetection
+    │       └── glove.6B.50d.txt 
     ├── references
     │   ├── C5W1L03-RNNModel.pptx
     │   ├── C5W1L09-GRU.pptx
     │   ├── C5W1L10-LSTMunit.pptx
     │   └── image
-    │       ├── LSTM.png
-    │       ├── RNN.png
-    │       ├── rnn2.png
-    │       ├── rnn_step_forward.png
-    │       └── softmax.png
     ├── requirements.txt
     ├── setup.py
     ├── src
@@ -57,4 +51,4 @@ Organization of my files
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. 
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>.
