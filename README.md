@@ -14,7 +14,6 @@ Organization of my files
     ├── Makefile
     ├── README.md
     ├── docs
-    │   ├── Makefile
     │   ├── _config.yml
     │   ├── assets
     │   ├── attention-model.md
