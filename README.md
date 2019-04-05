@@ -40,11 +40,6 @@ Organization of my files
     │   ├── C5W1L10-LSTMunit.pptx
     │   └── image
     └── requirements.txt
-    ├── setup.py
-    ├── src
-    ├── test_environment.py
-    ├── tox.ini
-    └── tree.txt
 
 
 --------
