@@ -18,9 +18,7 @@ Organization of my files
     │   ├── _config.yml
     │   ├── assets
     │   ├── attention-model.md
-    │   ├── conf.py
     │   ├── index.md
-    │   ├── make.bat
     │   └── word-embeddings.md
     ├── notebooks
     │   ├── Week 1
@@ -35,13 +33,13 @@ Organization of my files
     │   │   └── Trigger word detection
     │   └── readonly
     │       ├── TriggerwordDetection
-    │       └── glove.6B.50d.txt 
+    │       └── glove.6B.50d.txt
     ├── references
     │   ├── C5W1L03-RNNModel.pptx
     │   ├── C5W1L09-GRU.pptx
     │   ├── C5W1L10-LSTMunit.pptx
     │   └── image
-    ├── requirements.txt
+    └── requirements.txt
     ├── setup.py
     ├── src
     ├── test_environment.py
