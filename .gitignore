@@ -90,3 +90,5 @@ target/
 
 
 *draft.md
+tree.text
+*.npy
